@@ -12,7 +12,7 @@
     "react-native": "0.45.0",
     "react-native-config": "^0.2.0",
     "react-native-linear-gradient": "^1.5.15",
-    "react-native-material-bottom-navigation": "https://github.com/timomeh/react-native-material-bottom-navigation.git",
+    "react-native-material-bottom-navigation": "git+https://github.com/timomeh/react-native-material-bottom-navigation.git",
     "react-native-navigation": "next",
     "react-native-router-flux": "git+https://github.com/aksonov/react-native-router-flux.git",
     "react-native-scrollable-tab-view": "https://github.com/skv-headless/react-native-scrollable-tab-view.git",
