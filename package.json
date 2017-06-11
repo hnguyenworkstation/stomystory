@@ -15,13 +15,15 @@
     "react-native-material-bottom-navigation": "git+https://github.com/timomeh/react-native-material-bottom-navigation.git",
     "react-native-navigation": "next",
     "react-native-router-flux": "git+https://github.com/aksonov/react-native-router-flux.git",
-    "react-native-scrollable-tab-view": "https://github.com/skv-headless/react-native-scrollable-tab-view.git",
+    "react-native-scrollable-tab-view": "git+https://github.com/skv-headless/react-native-scrollable-tab-view.git",
     "react-native-sglistview": "^0.3.2",
     "react-native-vector-icons": "git+https://github.com/oblador/react-native-vector-icons.git",
+    "react-native-elements":"git+https://github.com/react-native-training/react-native-elements.git",
     "react-redux": "^4.4.6",
     "redux": "^3.6.0",
     "redux-logger": "^2.7.4",
-    "redux-thunk": "^2.1.0"
+    "redux-thunk": "^2.1.0",
+    "rn-viewpager": "git+https://github.com/zbtang/React-Native-ViewPager.git"
   },
   "devDependencies": {
     "babel-jest": "20.0.3",
