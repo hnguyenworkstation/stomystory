@@ -7,10 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "^15.5.4",
+    "react": "^16.0.0-alpha.13",
     "react-dom": "^15.5.4",
     "react-native": "0.45.0",
     "react-native-config": "^0.2.0",
+    "react-native-elements": "git+https://github.com/react-native-training/react-native-elements.git",
     "react-native-linear-gradient": "^1.5.15",
     "react-native-material-bottom-navigation": "git+https://github.com/timomeh/react-native-material-bottom-navigation.git",
     "react-native-navigation": "next",
@@ -18,7 +19,6 @@
     "react-native-scrollable-tab-view": "git+https://github.com/skv-headless/react-native-scrollable-tab-view.git",
     "react-native-sglistview": "^0.3.2",
     "react-native-vector-icons": "git+https://github.com/oblador/react-native-vector-icons.git",
-    "react-native-elements":"git+https://github.com/react-native-training/react-native-elements.git",
     "react-redux": "^4.4.6",
     "redux": "^3.6.0",
     "redux-logger": "^2.7.4",

@@ -5,7 +5,7 @@
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {StyleSheet, View, Text} from 'react-native';
 import React from 'react';
-import {Actions} from 'react-native-router-flux';
+import Actions from 'react-native-router-flux';
 import {PagerTabIndicator, IndicatorViewPager, PagerTitleIndicator, PagerDotIndicator} from 'rn-viewpager';
 
 export default class MainActivity extends React.Component {
@@ -69,7 +69,8 @@ export default class MainActivity extends React.Component {
     }
 
     static _renderTabIndicator() {
-        let tabs = [{
+        let tabs = [
+            {
                 text: 'Home',
                 iconSource: require('../images/ic_tab_circle.png'),
                 selectedIconSource: require('../images/ic_tab_circle_slct.png')
@@ -77,11 +78,12 @@ export default class MainActivity extends React.Component {
                 text: 'Message',
                 iconSource: require('../images/ic_tab_square.png'),
                 selectedIconSource: require('../images/ic_tab_square_slct.png')
-            },{
+            }, {
                 text: 'Profile',
                 iconSource: require('../images/ic_tab_triangle.png'),
                 selectedIconSource: require('../images/ic_tab_triangle_slct.png')
-        }];
+            }
+        ];
         return <PagerTabIndicator tabs={tabs} />;
     }
 }
